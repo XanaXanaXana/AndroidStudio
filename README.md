@@ -21,9 +21,8 @@ Esta aplicación móvil contiene una colección de ejercicios prácticos en Andr
 ---
 
 ##  Ejercicios incluidos
-## 📂 Ejercicios incluidos
 
-🔐 **LoginActivity**  
+**LoginActivity**  
 **Qué hace:**  
 Pantalla inicial donde se ingresan usuario y contraseña.
 
@@ -33,7 +32,7 @@ Si los datos son correctos, permite pasar al menú principal (MainActivity).
 
 ---
 
-🧭 **MainActivity (Menú de botones)**  
+**MainActivity (Menú de botones)**  
 **Qué hace:**  
 Pantalla con 10 botones, cada uno lleva a un ejercicio diferente.
 
@@ -45,20 +44,16 @@ Navegación sencilla a todas las actividades del portafolio.
 
 1️⃣ **Ejercicio 1**  
 **Qué hace:**  
-Pantalla con un botón que al presionarse cambia el color del fondo.
-
-**Funcionalidad:**  
-Usa setBackground para cambiar el color del Layout.  
+Pantalla con un botón que al presionarse cambia el texto de una etiqueta.  
+ 
 ![](capturas/captura3.png)
 
 ---
 
 2️⃣ **Ejercicio 2**  
 **Qué hace:**  
-Lista de ciudades (5 en total) con CheckBoxes.
+Pantalla con un botón que al presionarse cambia el color de fondo.  
 
-**Funcionalidad:**  
-Los CheckBoxes están alineados a la izquierda pero centrados en pantalla.  
 ![](capturas/captura4.png)  
 ![](capturas/captura5.png)
 
@@ -66,96 +61,65 @@ Los CheckBoxes están alineados a la izquierda pero centrados en pantalla.
 
 3️⃣ **Ejercicio 3**  
 **Qué hace:**  
-Tiene dos TextView (nombre y ciudad) y 4 botones.
+Permite seleccionar varios deportes por medio de checkBox.  
 
-**Funcionalidad:**  
-- Mostrar/ocultar campo de nombre.  
-- Mostrar/ocultar campo de ciudad.
+
 ![](capturas/captura6.png)
 
 ---
 
 4️⃣ **Ejercicio 4**  
 **Qué hace:**  
-Un EditText donde se escribe una oración y dos botones con su respectiva etiqueta.
+Permite seleccionar un medio de pago y solo permite una selección.  
 
-**Funcionalidad:**  
-Cada botón transfiere el texto del EditText a su TextView.  
+
 ![](capturas/captura7.png)
 
 ---
 
 5️⃣ **Ejercicio 5**  
 **Qué hace:**  
-Un EditText, una TextView y un botón.
+Permite seleccionar una ciudad de una lista y la muestra en una etiqueta.  
 
-**Funcionalidad:**  
-- El texto se refleja en la etiqueta mientras se escribe.  
-- El botón borra el contenido del EditText y la TextView.
 ![](capturas/captura8.png)
 
 ---
 
 6️⃣ **Ejercicio 6**  
 **Qué hace:**  
-Tiene campos de nombre, ciudad y frase.
+Permite mostrar y ocultar una entrada de texto.  
 
-**Funcionalidad:**  
-- Botón para activar los campos.  
-- Botón para desactivarlos.  
-- Botón que genera una frase con los datos.
+
 ![](capturas/captura9.png)
 
 ---
 
 7️⃣ **Ejercicio 7**  
-(Nota: Si me lo brincaste o no lo trabajamos directo, avísame si quieres una descripción base, pero parece que no fue parte directa de los que hicimos)  
+Traspasa el texto de una entrada de texto a una etiqueta y de ella a otra por medio de botones.  
 ![](capturas/captura99.png)
 
 ---
 
 8️⃣ **Ejercicio 8**  
-(Igual que el anterior, si lo omitimos, lo podemos describir si me das el tema que tenía pensado)  
+Vacía una entrada de texto.
 ![](capturas/captura999.png)
 
 ---
 
 9️⃣ **Ejercicio 9**  
 **Qué hace:**  
-Igual al ejercicio anterior (nombre, ciudad, frase), pero enfocado en setEnabled.
+Activa, desactiva y muestra un mensaje por medio de entradas de texto.  
 
-**Funcionalidad:**  
-Activa o desactiva los EditText, y muestra una frase combinada.  
 ![](capturas/captura9999.png)
 
 ---
 
 🔟 **Ejercicio 10**  
 **Qué hace:**  
-Calcula área y perímetro de un círculo a partir del radio.
+Calcula área y perímetro de un círculo a partir del radio al dar enter.  
 
-**Funcionalidad:**  
-- Se ingresa un radio (máximo 2 decimales).  
-- Al presionar enter, se calcula área y perímetro.  
-- Si el valor es menor a 1, marca error en rojo.
 ![](capturas/captura99999.png)
 
-
-**EN RESUMEN**
-
-
-| Ejercicio | Descripción |
-|----------|-------------|
-| **LoginActivity** | Pantalla de inicio con validación de usuario y contraseña. |
-| **MainActivity** | Menú principal con 10 botones para acceder a cada ejercicio. |
-| **Ejercicio 1** | Botón que cambia el color del fondo al presionarse. |
-| **Ejercicio 2** | CheckBoxes con nombres de ciudades, alineados y centrados. |
-| **Ejercicio 3** | Botones que ocultan o muestran los campos de nombre y ciudad. |
-| **Ejercicio 4** | Dos botones que copian una oración a distintas etiquetas. |
-| **Ejercicio 5** | Refleja el texto mientras se escribe; botón para limpiar. |
-| **Ejercicio 6** | Activa o desactiva campos de texto; genera frase con los datos. |
-| **Ejercicio 9** | Igual que el 6, pero enfocado en habilitar y deshabilitar campos. |
-| **Ejercicio 10** | Cálculo de área y perímetro a partir de un radio ingresado. |
 
 > Todos los ejercicios tienen un botón para regresar al menú principal (`MainActivitybotones`).
 
