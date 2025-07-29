@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <RadioGroup
+        android:id="@+id/radioGroupPagos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rbtnEfectivo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Efectivo" />
+
+        <RadioButton
+            android:id="@+id/rbtnTarjeta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tarjeta" />
+
+        <RadioButton
+            android:id="@+id/rbtnTransferencia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transferencia" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnConfirmar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirmar"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#C9835104"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/lblSeleccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccionaste:"
+        android:textSize="18sp"
+        android:layout_marginTop="24dp" />
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar al inicio"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#C9B87E4E"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@drawable/fondo2">
+
+    <TextView
+        android:id="@+id/lblTexto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Esperando.."
+        android:textSize="20sp"
+        android:textColor="#382C0F"
+        android:paddingBottom="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnActualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actualizar texto"
+        android:padding="10dp"
+        android:backgroundTint="#624429"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar al inicio"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#C9B87E4E"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>

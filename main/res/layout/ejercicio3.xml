@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/chkFutbol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fütbol" />
+
+        <CheckBox
+            android:id="@+id/chkBasquet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bäsquetbol" />
+
+        <CheckBox
+            android:id="@+id/chkNatacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Natación" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnMostrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mostrar Selección"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#C9835104"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/lblSeleccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selección: "
+        android:textSize="18sp"
+        android:layout_marginTop="24dp" />
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar al inicio"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#C9B87E4E"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

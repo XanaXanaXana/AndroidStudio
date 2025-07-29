@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/fondo2"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre:" />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:enabled="false"
+        android:hint="Ingresa tu nombre"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ciudad:" />
+
+    <EditText
+        android:id="@+id/txtCiudad"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:enabled="false"
+        android:hint="Ingresa tu ciudad"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Frase:" />
+
+    <EditText
+        android:id="@+id/txtFrase"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:focusable="false"
+        android:hint="Aquí aparecerá la frase"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btnActivar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activar"
+        android:backgroundTint="#C9835104"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/btnAceptar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aceptar"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#C9835104"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/btnDesactivar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desactivar"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#C9835104"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar al inicio"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#C9B87E4E"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

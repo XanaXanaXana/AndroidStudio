@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/fondo2"
+    >
+
+    <TextView
+        android:id="@+id/lblTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Introduzca una oración:"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/txtTexto"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:hint="Escribe aquí"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/lblTexto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aquí se muestra el texto"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnVaciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vaciar"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#C9835104"
+        android:textColor="#FFFFFF"/>
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar al inicio"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#C9B87E4E"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

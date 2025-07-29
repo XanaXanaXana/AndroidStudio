@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">LoginApp</string>
+    <string name="logo_desc">Logo de la app</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="login_button">Iniciar sesión</string>
+
+    <string name="logo_description">Logo de la app</string>
+    <string name="ejercicio_1">Ejercicio 1</string>
+    <string name="ejercicio_2">Ejercicio 2</string>
+    <string name="ejercicio_3">Ejercicio 3</string>
+    <string name="ejercicio_4">Ejercicio 4</string>
+    <string name="ejercicio_5">Ejercicio 5</string>
+    <string name="ejercicio_6">Ejercicio 6</string>
+    <string name="ejercicio_7">Ejercicio 7</string>
+    <string name="ejercicio_8">Ejercicio 8</string>
+    <string name="ejercicio_9">Ejercicio 9</string>
+    <string name="ejercicio_10">Ejercicio 10</string>
+
+</resources>

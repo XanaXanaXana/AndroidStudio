@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    android:background="@drawable/fondo1"
+    >
+
+    <!-- Logo centrado arriba -->
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="210dp"
+        android:contentDescription="@string/logo_description"
+        android:src="@drawable/perrito" />
+
+
+    <!-- Contenedor de botones en 2 columnas -->
+    <GridLayout
+        android:id="@+id/gridBotones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alignmentMode="alignMargins"
+        android:columnCount="2"
+        android:rowCount="5"
+        android:useDefaultMargins="true">
+
+        <!-- Botones -->
+        <Button
+            style="@style/btnEjercicioStyle"
+            android:id="@+id/btnEjercicio1"
+            android:text="@string/ejercicio_1" />
+
+        <Button
+            style="@style/btnEjercicioStyle"
+            android:id="@+id/btnEjercicio2"
+            android:text="@string/ejercicio_2" />
+
+        <Button
+            style="@style/btnEjercicioStyle"
+            android:id="@+id/btnEjercicio3"
+            android:text="@string/ejercicio_3" />
+
+        <Button
+            style="@style/btnEjercicioStyle"
+            android:id="@+id/btnEjercicio4"
+            android:text="@string/ejercicio_4" />
+
+        <Button
+            style="@style/btnEjercicioStyle"
+            android:id="@+id/btnEjercicio5"
+            android:text="@string/ejercicio_5" />
+
+        <Button
+            style="@style/btnEjercicioStyle"
+            android:id="@+id/btnEjercicio6"
+            android:text="@string/ejercicio_6" />
+
+        <Button
+            style="@style/btnEjercicioStyle"
+            android:id="@+id/btnEjercicio7"
+            android:text="@string/ejercicio_7" />
+
+        <Button
+            style="@style/btnEjercicioStyle"
+            android:id="@+id/btnEjercicio8"
+            android:text="@string/ejercicio_8" />
+
+        <Button
+            style="@style/btnEjercicioStyle"
+            android:id="@+id/btnEjercicio9"
+            android:text="@string/ejercicio_9" />
+
+        <Button
+            style="@style/btnEjercicioStyle"
+            android:id="@+id/btnEjercicio10"
+            android:text="@string/ejercicio_10" />
+    </GridLayout>
+
+
+
+
+</LinearLayout>
