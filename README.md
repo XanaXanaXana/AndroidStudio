@@ -38,7 +38,8 @@ Si los datos son correctos, permite pasar al menú principal (MainActivity).
 Pantalla con 10 botones, cada uno lleva a un ejercicio diferente.
 
 **Funcionalidad:**  
-Navegación sencilla a todas las actividades del portafolio.
+Navegación sencilla a todas las actividades del portafolio.  
+![](capturas/captura2.png)
 
 ---
 
@@ -47,7 +48,8 @@ Navegación sencilla a todas las actividades del portafolio.
 Pantalla con un botón que al presionarse cambia el color del fondo.
 
 **Funcionalidad:**  
-Usa setBackground para cambiar el color del Layout.
+Usa setBackground para cambiar el color del Layout.  
+![](capturas/captura3.png)
 
 ---
 
@@ -56,7 +58,9 @@ Usa setBackground para cambiar el color del Layout.
 Lista de ciudades (5 en total) con CheckBoxes.
 
 **Funcionalidad:**  
-Los CheckBoxes están alineados a la izquierda pero centrados en pantalla.
+Los CheckBoxes están alineados a la izquierda pero centrados en pantalla.  
+![](capturas/captura4.png)  
+![](capturas/captura5.png)
 
 ---
 
@@ -67,6 +71,7 @@ Tiene dos TextView (nombre y ciudad) y 4 botones.
 **Funcionalidad:**  
 - Mostrar/ocultar campo de nombre.  
 - Mostrar/ocultar campo de ciudad.
+![](capturas/captura6.png)
 
 ---
 
@@ -75,7 +80,8 @@ Tiene dos TextView (nombre y ciudad) y 4 botones.
 Un EditText donde se escribe una oración y dos botones con su respectiva etiqueta.
 
 **Funcionalidad:**  
-Cada botón transfiere el texto del EditText a su TextView.
+Cada botón transfiere el texto del EditText a su TextView.  
+![](capturas/captura7.png)
 
 ---
 
@@ -86,6 +92,7 @@ Un EditText, una TextView y un botón.
 **Funcionalidad:**  
 - El texto se refleja en la etiqueta mientras se escribe.  
 - El botón borra el contenido del EditText y la TextView.
+![](capturas/captura8.png)
 
 ---
 
@@ -97,16 +104,19 @@ Tiene campos de nombre, ciudad y frase.
 - Botón para activar los campos.  
 - Botón para desactivarlos.  
 - Botón que genera una frase con los datos.
+![](capturas/captura9.png)
 
 ---
 
 7️⃣ **Ejercicio 7**  
-(Nota: Si me lo brincaste o no lo trabajamos directo, avísame si quieres una descripción base, pero parece que no fue parte directa de los que hicimos)
+(Nota: Si me lo brincaste o no lo trabajamos directo, avísame si quieres una descripción base, pero parece que no fue parte directa de los que hicimos)  
+![](capturas/captura99.png)
 
 ---
 
 8️⃣ **Ejercicio 8**  
-(Igual que el anterior, si lo omitimos, lo podemos describir si me das el tema que tenía pensado)
+(Igual que el anterior, si lo omitimos, lo podemos describir si me das el tema que tenía pensado)  
+![](capturas/captura999.png)
 
 ---
 
@@ -115,7 +125,8 @@ Tiene campos de nombre, ciudad y frase.
 Igual al ejercicio anterior (nombre, ciudad, frase), pero enfocado en setEnabled.
 
 **Funcionalidad:**  
-Activa o desactiva los EditText, y muestra una frase combinada.
+Activa o desactiva los EditText, y muestra una frase combinada.  
+![](capturas/captura9999.png)
 
 ---
 
@@ -127,6 +138,10 @@ Calcula área y perímetro de un círculo a partir del radio.
 - Se ingresa un radio (máximo 2 decimales).  
 - Al presionar enter, se calcula área y perímetro.  
 - Si el valor es menor a 1, marca error en rojo.
+![](capturas/captura99999.png)
+
+
+**EN RESUMEN**
 
 
 | Ejercicio | Descripción |
@@ -142,7 +157,7 @@ Calcula área y perímetro de un círculo a partir del radio.
 | **Ejercicio 9** | Igual que el 6, pero enfocado en habilitar y deshabilitar campos. |
 | **Ejercicio 10** | Cálculo de área y perímetro a partir de un radio ingresado. |
 
-> Todos los ejercicios tienen un botón para regresar al menú principal (`MainActivity`).
+> Todos los ejercicios tienen un botón para regresar al menú principal (`MainActivitybotones`).
 
 ---
 
@@ -153,14 +168,29 @@ Calcula área y perímetro de un círculo a partir del radio.
 - **Librerías externas:** No se usaron librerías externas como Retrofit, Glide, etc.
 - **Buenas prácticas:**  
   - Variables descriptivas  
-  - Comentarios breves en los métodos (`// TODO`)  
   - Organización por actividad  
   - Botón de navegación de regreso incluido en todos
 
 ---
 
-## 🚀 Pasos para instalar y ejecutar
+## Pasos para instalar y ejecutar
 
-1. **Clona este repositorio** en tu máquina local:  
-   ```bash
-   git clone https://github.com/tu-usuario/android-skills-portfolio.git
+1. **Descarga el proyecto**:
+   - Opción 1: Clonar con Git  
+     ```bash
+     git clone https://github.com/tu-usuario/android-skills-portfolio.git
+     ```
+
+2. **Abrir el proyecto en Android Studio**:
+   - Selecciona **"Open an existing project"** y elige la carpeta del proyecto.
+
+3. **Sincronizar el proyecto**:
+   - Android Studio descargará las dependencias automáticamente.
+   - Si no, haz clic en **"Sync Now"** cuando aparezca el aviso.
+
+4. **Configurar un emulador o conecta tu celular**:
+   - Usa Android 7.0 (API 24) o superior.
+   - Si es un celular físico, activa **Depuración por USB**.
+
+5. **Ejecutar la app**:
+   - Haz clic en el botón **Run ▶️** y selecciona el dispositivo.
