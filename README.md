@@ -28,7 +28,8 @@ Esta aplicación móvil contiene una colección de ejercicios prácticos en Andr
 Pantalla inicial donde se ingresan usuario y contraseña.
 
 **Funcionalidad:**  
-Si los datos son correctos, permite pasar al menú principal (MainActivity).
+Si los datos son correctos, permite pasar al menú principal (MainActivity).  
+![](capturas/captura1.png)
 
 ---
 
