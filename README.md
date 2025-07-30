@@ -61,7 +61,7 @@ En esta pantalla se muestra cómo cambiar dinámicamente el color de fondo de la
 
 3️⃣ **Ejercicio 3**  
 **Qué hace:**  
-Esta actividad incluye un botón y un TextView (etiqueta de texto). La idea es simple: cuando el usuario presiona el botón, el texto de la etiqueta cambia a otro mensaje. Es un ejemplo básico pero muy importante para entender cómo funciona la interacción entre componentes: el usuario hace una acción (clic), y la interfaz reacciona (cambia el texto).  
+Esta actividad presenta varias opciones de deportes como fútbol, básquetbol, y natación, cada una acompañada de un CheckBox. El usuario puede seleccionar todas las que quiera. Al presionar un botón, se muestra un mensaje con los deportes elegidos. Aquí se aprende a trabajar con selección múltiple, obtener los elementos marcados y mostrarlos de forma clara en pantalla.  
 
 
 ![](capturas/captura6.png)
@@ -70,7 +70,7 @@ Esta actividad incluye un botón y un TextView (etiqueta de texto). La idea es s
 
 4️⃣ **Ejercicio 4**  
 **Qué hace:**  
-Permite seleccionar un medio de pago y solo permite una selección.  
+En esta actividad se presentan distintas formas de pago, pero solo se puede elegir una gracias a los RadioButton. Al seleccionar y confirmar, se muestra la opción elegida. Aquí se practica cómo trabajar con selección única.  
 
 
 ![](capturas/captura7.png)
@@ -79,7 +79,7 @@ Permite seleccionar un medio de pago y solo permite una selección.
 
 5️⃣ **Ejercicio 5**  
 **Qué hace:**  
-Permite seleccionar una ciudad de una lista y la muestra en una etiqueta.  
+En esta actividad se muestra una lista de ciudades usando un ListView. El usuario puede tocar una ciudad para seleccionarla. Una vez que lo hace, el nombre de esa ciudad se guarda y se puede mostrar en una etiqueta al presionar un botón. Este ejercicio es útil para entender cómo funcionan las listas en Android y cómo capturar lo que el usuario elige.  
 
 ![](capturas/captura8.png)
 
@@ -87,7 +87,7 @@ Permite seleccionar una ciudad de una lista y la muestra en una etiqueta.
 
 6️⃣ **Ejercicio 6**  
 **Qué hace:**  
-Permite mostrar y ocultar una entrada de texto.  
+Aquí se trabaja con la visibilidad de los elementos. Hay una entrada de texto que puede mostrarse u ocultarse al presionar un botón. Esto permite entender cómo cambiar el estado visible de un componente en pantalla, algo muy común cuando queremos esconder o mostrar cosas dependiendo de lo que haga el usuario.  
 
 
 ![](capturas/captura9.png)
@@ -95,20 +95,20 @@ Permite mostrar y ocultar una entrada de texto.
 ---
 
 7️⃣ **Ejercicio 7**  
-Traspasa el texto de una entrada de texto a una etiqueta y de ella a otra por medio de botones.  
+En esta actividad hay una entrada de texto donde el usuario puede escribir algo. Al presionar un botón, ese texto se copia a una etiqueta (TextView). Luego, con otro botón, ese mismo texto pasa a una segunda etiqueta. Este ejercicio ayuda a comprender cómo mover datos entre diferentes elementos de la interfaz.  
 ![](capturas/captura99.png)
 
 ---
 
 8️⃣ **Ejercicio 8**  
-Vacía una entrada de texto.
+En esta pantalla el usuario puede escribir lo que quiera en un campo de texto, pero al presionar un botón, el contenido se borra completamente. Es útil para practicar cómo manipular el contenido de los EditText y cómo responder a eventos con acciones específicas como limpiar formularios.  
 ![](capturas/captura999.png)
 
 ---
 
 9️⃣ **Ejercicio 9**  
 **Qué hace:**  
-Activa, desactiva y muestra un mensaje por medio de entradas de texto.  
+En esta actividad se puede activar o desactivar una entrada de texto presionando botones. Además, se muestra un mensaje dependiendo de si el campo está activo o no. Esto sirve para practicar el uso del método .setEnabled() y entender cómo cambiar el comportamiento de los elementos según el estado en el que se encuentren.  
 
 ![](capturas/captura9999.png)
 
@@ -116,7 +116,7 @@ Activa, desactiva y muestra un mensaje por medio de entradas de texto.
 
 🔟 **Ejercicio 10**  
 **Qué hace:**  
-Calcula área y perímetro de un círculo a partir del radio al dar enter.  
+Esta actividad combina entrada de texto con matemática. El usuario escribe el radio de un círculo en un campo, y al presionar enter, se calculan automáticamente el área y el perímetro. Los resultados se muestran en etiquetas.  
 
 ![](capturas/captura99999.png)
 
