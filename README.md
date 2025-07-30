@@ -24,7 +24,7 @@ Esta aplicación móvil contiene una colección de ejercicios prácticos en Andr
 
 **LoginActivity**  
 **Qué hace:**  
-Pantalla inicial donde se ingresan usuario y contraseña.
+Esta es la primera pantalla que se muestra al iniciar la aplicación. Su función es simular un sistema de acceso con campos para ingresar nombre de usuario y contraseña. Aunque no hay una validación compleja, se puede configurar para verificar datos simples o avanzar sin validación. Al presionar el botón de iniciar sesión, si los campos están correctos o llenos, se redirige al usuario al menú principal de la aplicación. Esta pantalla representa la entrada básica a una app con autenticación.
 
 **Funcionalidad:**  
 Si los datos son correctos, permite pasar al menú principal (MainActivity).  
@@ -34,7 +34,7 @@ Si los datos son correctos, permite pasar al menú principal (MainActivity).
 
 **MainActivity (Menú de botones)**  
 **Qué hace:**  
-Pantalla con 10 botones, cada uno lleva a un ejercicio diferente.
+Una vez que el usuario accede, se muestra el menú principal. Aquí aparecen 10 botones numerados, cada uno representando un ejercicio distinto. Cada botón abre una actividad diferente que demuestra un concepto básico de programación en Android, como uso de botones, checkboxes, listas, entrada de datos, entre otros. Esta pantalla es como un hub de navegación que permite acceder de forma rápida y directa a todos los ejercicios.
 
 **Funcionalidad:**  
 Navegación sencilla a todas las actividades del portafolio.  
@@ -44,7 +44,7 @@ Navegación sencilla a todas las actividades del portafolio.
 
 1️⃣ **Ejercicio 1**  
 **Qué hace:**  
-Pantalla con un botón que al presionarse cambia el texto de una etiqueta.  
+Esta actividad incluye un botón y un TextView (etiqueta de texto). La idea es simple: cuando el usuario presiona el botón, el texto de la etiqueta cambia a otro mensaje. Es un ejemplo básico pero muy importante para entender cómo funciona la interacción entre componentes: el usuario hace una acción (clic), y la interfaz reacciona (cambia el texto).  
  
 ![](capturas/captura3.png)
 
@@ -52,7 +52,7 @@ Pantalla con un botón que al presionarse cambia el texto de una etiqueta.
 
 2️⃣ **Ejercicio 2**  
 **Qué hace:**  
-Pantalla con un botón que al presionarse cambia el color de fondo.  
+En esta pantalla se muestra cómo cambiar dinámicamente el color de fondo de la actividad al presionar un botón. Al hacer clic, todo el fondo de la pantalla cambia a otro color, como azul, rojo, o el que se haya definido. Este ejercicio es útil para practicar cómo modificar propiedades visuales de la interfaz desde el código.  
 
 ![](capturas/captura4.png)  
 ![](capturas/captura5.png)
@@ -61,7 +61,7 @@ Pantalla con un botón que al presionarse cambia el color de fondo.
 
 3️⃣ **Ejercicio 3**  
 **Qué hace:**  
-Permite seleccionar varios deportes por medio de checkBox.  
+Esta actividad incluye un botón y un TextView (etiqueta de texto). La idea es simple: cuando el usuario presiona el botón, el texto de la etiqueta cambia a otro mensaje. Es un ejemplo básico pero muy importante para entender cómo funciona la interacción entre componentes: el usuario hace una acción (clic), y la interfaz reacciona (cambia el texto).  
 
 
 ![](capturas/captura6.png)
